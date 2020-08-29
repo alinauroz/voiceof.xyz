@@ -14,4 +14,4 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/build/index.html")
 })
 
-https.createServer(options, app).listen(8443);
+https.createServer(options, app).listen(443);
