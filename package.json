@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "cd client && yarn build && cd .. && nodemon server/index.js"
+    "build": "cd client && yarn build && cd .. && nodemon server/index.js",
+    "serve": "nodemon server/index.js"
   },
   "author": "",
   "license": "ISC",
