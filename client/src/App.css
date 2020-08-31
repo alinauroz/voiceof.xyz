@@ -1,7 +1,16 @@
+.app {
+  width: calc(100% - 80px);
+  margin-left: 40px;
+}
+
 .topbar {
   width: calc(100% - 20px);
   padding: 10px;
   height: 40px;
+}
+
+input:focus {
+  outline: none;
 }
 
 .topbar-links-container {
@@ -20,8 +29,8 @@
 }
 
 .control-bar-button {
-  padding: 10px;
-  border-radius: 8px;
+  padding: 10px 20px;
+  border-radius: 20px;
   background-color: transparent;
   border: 0px;
   margin: 5px;
@@ -29,5 +38,19 @@
   cursor: pointer;
   color: rgb(80, 80, 80);
   font-size: 18px;
+}
+
+.control-bar-button:hover {
+  background-color: rgba(80, 80, 80, 0.1);
+}
+
+.selected {
+  background-color: #22268e;
+  color: white;
+}
+
+.selected:hover {
+  background-color: #22268e;
+  color: white;
 }
 

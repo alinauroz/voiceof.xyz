@@ -5,6 +5,8 @@ export default class ControlBarButton extends React.Component {
         super (props);
     }
     render () {
-        return <input type = 'button' className = 'control-bar-button' onClick = '' value = {this.props.title} />
+        if (this.props.selected) var className = 'control-bar-button selected'
+        else var className = 'control-bar-button'
+        return <input type = 'button' className = {className} onClick = {this.props.onClick || ""} value = {this.props.title} />
     }
 }
