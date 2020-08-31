@@ -1,0 +1,20 @@
+.topbar {
+  width: calc(100% - 20px);
+  padding: 10px;
+  height: 40px;
+}
+
+.topbar-links-container {
+  float: right;
+  display: inline-block;
+  width: 300px;
+  text-align: right;
+}
+
+.topbar-links {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(80,80,80);
+  font-weight: bold;
+  margin: 10px 10px;
+}
