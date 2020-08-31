@@ -18,3 +18,16 @@
   font-weight: bold;
   margin: 10px 10px;
 }
+
+.control-bar-button {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 0px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(80, 80, 80);
+  font-size: 18px;
+}
+
