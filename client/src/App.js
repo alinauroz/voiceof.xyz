@@ -1,13 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import TopBar from './components/TopBar.jsx'
 
 class App extends React.Component {
   constructor (props) {
     super (props);
   }
   render () {
-    return <></>
+    return (
+    <>
+      <TopBar />
+    </>
+    )
   }
 }
 
