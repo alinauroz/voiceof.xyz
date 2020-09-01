@@ -9,6 +9,7 @@ export default class Post extends React.Component {
             <div className = 'main-container'>
                 <input type = 'text' placeholder = 'Email' className = 'input' />
                 <textarea className = 'text' placeholder = 'Your Message'></textarea>
+                <input type = 'button' value = 'Post' className = 'button' />
             </div>
         )
     }

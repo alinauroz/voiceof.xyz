@@ -69,6 +69,7 @@ input:focus, textarea:focus {
   background: rgba(80, 80, 80, 0.2);
   font-weight: bold;
   color: rgb(80, 80, 80);
+  margin-top: 10px;
 }
 
 .text {
@@ -82,5 +83,18 @@ input:focus, textarea:focus {
   color: rgb(80, 80, 80);
   resize: none;
   margin-top: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 0px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(80, 80, 80);
+  font-size: 18px;
+  background: linear-gradient(15deg, #22268e, #6c71d2);
+  color: white;
 }
 
